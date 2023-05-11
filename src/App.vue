@@ -19,13 +19,7 @@
       </button>
     </form>
 
-    <app-resume
-      :resumeTitle="resumeTitle"
-      :resumeAvatar="resumeAvatar"
-      :resumeTitleTwo="resumeTitleTwo"
-      :resumeText="resumeText"
-      :resume="resume"
-    ></app-resume>
+    <app-resume :resume="resume"></app-resume>
   </div>
   <div class="container">
     <app-load-button v-show="btnload" @click="loadComent"></app-load-button>
