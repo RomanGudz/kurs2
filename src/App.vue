@@ -33,11 +33,11 @@
 </template>
 
 <script>
-import AppResume from "./AppResume.vue";
-import AppInput from "./AppInput.vue";
-import AppLoadButton from "./AppLoadButton.vue";
-import AppLoader from "./AppLoader.vue";
-import AppListCommetn from "./AppListCommetn.vue";
+import AppResume from "./components/AppResume.vue";
+import AppInput from "./components/AppInput.vue";
+import AppLoadButton from "./components/AppLoadButton.vue";
+import AppLoader from "./components/AppLoader.vue";
+import AppListCommetn from "./components/AppListCommetn.vue";
 import axios from "axios";
 
 export default {
