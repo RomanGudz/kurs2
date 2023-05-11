@@ -1,7 +1,6 @@
 <template>
   <div class="container column">
     <form class="card card-w30" @submit.prevent="submitForm">
-      <!-- попытатся div с селектами вынести отдельным компонентом -->
       <div class="form-control">
         <label for="type">Тип блока</label>
         <select id="type" v-model="type">
